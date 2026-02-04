@@ -114,4 +114,4 @@ def admin():
 
 
 if __name__ == "__main__":
-    appp.run(host="0.0.0.0",port=10000)
+    appp.run(host="0.0.0.0", port=10000)

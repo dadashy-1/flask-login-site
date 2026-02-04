@@ -21,9 +21,12 @@ form{
 input{
     width: 90%;
     padding: 10px;
-    border: none;
-    border-radius: 5px;
+    border: solid gray;
+    border-radius: 20px;
     cursor: pointer;
+}
+input:hover{
+    background-color: rgb(177, 177, 177);
 }
 
 button{
