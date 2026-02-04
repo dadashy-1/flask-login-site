@@ -1,0 +1,25 @@
+<h1>Users Panel</h1>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Delete</th>
+    </tr>
+
+    {% for user in users %}
+    <tr>
+        <td>{{ user[0] }}</td>
+        <td>{{ user[1] }}</td>
+        <td>{{ user[2] }}</td>
+        <td>
+            <a href="/delete/{{ user[0] }}">Delete</a>
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+<br><br>
+<a href="/admin_dashboard">Back</a>
